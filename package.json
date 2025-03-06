@@ -1,7 +1,7 @@
 {
   "name": "event",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "jest --detectOpenHandles --forceExit",
     "test:dev": "npm run test -- --watchAll",
@@ -12,5 +12,8 @@
   "sideEffects": false,
   "author": "",
   "license": "MIT License",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.9"
+  }
 }
