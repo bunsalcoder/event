@@ -1,0 +1,16 @@
+{
+  "name": "event",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:dev": "npm run test -- --watchAll",
+    "jsdoc": "tsc && jsdoc build/**/* -d jsdoc",
+    "eslint": "eslint src --ext .ts"
+  },
+  "private": true,
+  "sideEffects": false,
+  "author": "",
+  "license": "MIT License",
+  "description": ""
+}
